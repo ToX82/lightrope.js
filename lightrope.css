@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     pointer-events: none;
+    top: -2px;
     width: 100%;
 }
 .lightrope li {
@@ -20,21 +21,21 @@
     border-radius: 50%;
     margin: 10px;
     display: inline-block;
-    background: rgba(0, 247, 165, 1);
-    box-shadow: 0 2.3333333333px 16px 3px rgba(0, 247, 165, 1);
-    animation-name: flash-1;
+    background: rgba(238, 255, 0, 1);
+    box-shadow: 0 2.3333333333px 16px 3px rgba(238, 255, 0, 0.5);
+    animation-name: yellow-flash;
     animation-duration: 2s;
 }
 .lightrope li:nth-child(2n+1) {
-    background: rgba(0, 255, 255, 1);
-    box-shadow: 0 2.3333333333px 16px 3px rgba(238, 255, 0, 0.5);
-    animation-name: flash-2;
+    background: rgba(0, 247, 165, 1);
+    box-shadow: 0 2.3333333333px 16px 3px rgba(0, 247, 165, 1);
+    animation-name: green-flash;
     animation-duration: 0.4s;
 }
 .lightrope li:nth-child(4n+2) {
     background: rgba(247, 0, 148, 1);
     box-shadow: 0 2.3333333333px 16px 3px rgba(247, 0, 148, 1);
-    animation-name: flash-3;
+    animation-name: red-flash;
     animation-duration: 1.1s;
 }
 .lightrope li:nth-child(odd) {
@@ -70,7 +71,7 @@
     margin-left: -20px;
 }
 
-@keyframes flash-1 {
+@keyframes yellow-flash {
 
     0%,
     100% {
@@ -83,7 +84,7 @@
     }
 }
 
-@keyframes flash-2 {
+@keyframes green-flash {
 
     0%,
     100% {
@@ -96,7 +97,7 @@
     }
 }
 
-@keyframes flash-3 {
+@keyframes red-flash {
 
     0%,
     100% {
