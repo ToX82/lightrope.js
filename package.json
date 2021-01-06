@@ -1,0 +1,24 @@
+{
+  "name": "lightrope.js",
+  "title": "lightrope.js",
+  "version": "1.0.0",
+  "description": "Add some animated Christmas light to your website. No effort required. Vanilla JS",
+  "main": "lightrope.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ToX82/lightrope.js.git"
+  },
+  "author": "Emanuele 'ToX' Toscano",
+  "contributors": ["https://github.com/ToX82/lightrope.js/graphs/contributors"],
+  "keywords": [
+    "christmas",
+    "xmas",
+    "light",
+    "lightrope"
+  ],
+  "bugs": {
+    "url": "https://github.com/ToX82/lightrope.js/issues"
+  },
+  "license": "GNU GPL v2.0",
+  "dependencies": {}
+}
