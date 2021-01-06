@@ -7,5 +7,5 @@ Add some animated Christmas light to your website. No effort required.
 ## INSTALLATION
 * Insert this tag at the end of your website's html code (before the `</body>` tag):
 
-`<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightrope.js/lightrope.js"></script>`
+`<script src="https://cdn.jsdelivr.net/npm/lightrope.js/lightrope.js"></script>`
 * It's done. Merry Christmas!
